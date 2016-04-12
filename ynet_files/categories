@@ -1,0 +1,2 @@
+var Exposebox = Exposebox||{};
+        Exposebox.categories = ["Yent"];

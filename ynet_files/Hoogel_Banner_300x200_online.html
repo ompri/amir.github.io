@@ -1,0 +1,107 @@
+
+<!-- saved from url=(0092)http://go.ynet.co.il/TipIsraeli/pics/YnetBannerAdmin/assets/Hoogel_Banner_300x200_online.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<style>
+	body{margin:0px;padding:0px;}
+	</style>
+	<script type="text/javascript">
+	var GDID;
+	var GDIDArr = [];
+	var GDTypeArr = [];
+	var ImageUrlArr = [];
+	var firstLinkUrlArr = [];
+	var secondLinkUrlArr = [];
+	var SrcUrlArr = [];
+
+
+	GDIDArr.push('18394');
+	GDTypeArr.push('0');
+	ImageUrlArr.push('15_3_2016_17_23_14_842.jpg');
+	firstLinkUrlArr.push('http://www.ynet.co.il/home/0,7340,L-11549,00.html?a_aid=124545&label=hugel_300/200_passover2016&utm_source=ynet.ros_article&utm_medium=hugel_300/200&utm_campaign=hotelscombined_passover2016&utm_content=hotelscombinedt-hugel_300/200');
+	secondLinkUrlArr.push('http://www.ynet.co.il/home/0,7340,L-11549,00.html?a_aid=124545&label=hugel_300/200_passover2016&utm_source=ynet.ros_article&utm_medium=hugel_300/200&utm_campaign=hotelscombined_passover2016&utm_content=hotelscombinedt-hugel_300/200');
+	SrcUrlArr.push('');
+	GDIDArr.push('18330');
+	GDTypeArr.push('0');
+	ImageUrlArr.push('3_4_2016_10_30_57_516.jpg');
+	firstLinkUrlArr.push('http://runy.ynet.co.il/Melissa?utm_source=ynet.ros_article&utm_medium=hugel_300.200&utm_campaign=Melissa&utm_content=runy-hugel_300/200');
+	secondLinkUrlArr.push('http://runy.ynet.co.il/Melissa?utm_source=ynet.ros_article&utm_medium=hugel_300.200&utm_campaign=Melissa&utm_content=runy-hugel_300/200');
+	SrcUrlArr.push('');
+	GDIDArr.push('18331');
+	GDTypeArr.push('0');
+	ImageUrlArr.push('6_4_2016_9_40_20_181.jpg');
+	firstLinkUrlArr.push('https://b.ynet.co.il/webapp/vehicle/vehicle.html?utm_source=ynet.ros&utm_medium=hugel_300/200&utm_campaign=Bituach_yellow&utm_content=Bituach.car-hugel_300/200');
+	secondLinkUrlArr.push('https://b.ynet.co.il/webapp/vehicle/vehicle.html?utm_source=ynet.ros&utm_medium=hugel_300/200&utm_campaign=Bituach_yellow&utm_content=Bituach.car-hugel_300/200');
+	SrcUrlArr.push('');
+	GDIDArr.push('18332');
+	GDTypeArr.push('0');
+	ImageUrlArr.push('10_4_2016_9_26_51_630.jpg');
+	firstLinkUrlArr.push('http://www.ynetshops.co.il/ItemDetails.aspx?auction_id=22950764&af=2557&olcamp=hugel_300_200_162OUT&utm_source=ynet.ros_article&utm_medium=hugel_300/200&utm_campaign=162OUT&utm_content=ynetshops-hugel_300/200');
+	secondLinkUrlArr.push('http://www.ynetshops.co.il/ItemDetails.aspx?auction_id=22950764&af=2557&olcamp=hugel_300_200_162OUT&utm_source=ynet.ros_article&utm_medium=hugel_300/200&utm_campaign=162OUT&utm_content=ynetshops-hugel_300/200');
+	SrcUrlArr.push('');
+
+
+	var xmlhttp = null;
+	function statistic() {
+		xmlhttp = getxmlhttp();
+		if (xmlhttp == null) {
+			return;
+		}
+		var url = 'statistic.aspx?GDID=' + GDID + '&D=' + Date();
+		xmlhttp.open('get', url, true);
+		xmlhttp.send(null);
+	}
+	function getxmlhttp() {
+		xmlhttp = null;
+		try {
+			xmlhttp = new XMLHttpRequest();
+		}
+		catch (e) {
+			try {
+				xmlhttp = new ActiveXObject('Msxml2.XMLHTTP');
+			}
+			catch (e) {
+				xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
+			}
+		}
+		return xmlhttp;
+	}
+
+
+	function get_load() {
+		var MuliplicationValue = GDTypeArr.length;
+		var GO = Math.floor(Math.random() * MuliplicationValue);
+		GDID = GDIDArr[GO];
+		GDType = GDTypeArr[GO];
+		if (GDType == '0') {
+			document.getElementById('GDType_0').style.display = '';
+			TheImg = document.getElementById('BannerImage');
+			TheImg.src = ImageUrlArr[GO];
+			document.getElementById('1stLeftArea').href = firstLinkUrlArr[GO];
+			document.getElementById('2ndRightArea').href = secondLinkUrlArr[GO];
+		}
+		else {
+			document.getElementById('GDType_1').style.display = '';
+			document.getElementById('ifrm').src = SrcUrlArr[GO];
+		}
+	}
+	</script>
+
+
+	</head>
+	<body onclick="statistic()" onload="get_load()" style="margin:0px;padding:0px;" marginwidth="0" marginheight="0">
+	<center>
+	<div id="GDType_0" style="padding: 0px; margin: 0px;">
+	<img id="BannerImage" style="width:300px;height:200px;border-style:none;" usemap="#TwoArea300x200Map" alt="" src="./3_4_2016_10_30_57_516.jpg">
+	<map id="TwoArea300x200Map" name="TwoArea300x200Map">
+	<area id="1stLeftArea" shape="rect" coords="0,0,150,200" href="http://runy.ynet.co.il/Melissa?utm_source=ynet.ros_article&amp;utm_medium=hugel_300.200&amp;utm_campaign=Melissa&amp;utm_content=runy-hugel_300/200" target="_blank" style="outline:0px;" alt="">
+	<area id="2ndRightArea" shape="rect" coords="150,0,300,200" href="http://runy.ynet.co.il/Melissa?utm_source=ynet.ros_article&amp;utm_medium=hugel_300.200&amp;utm_campaign=Melissa&amp;utm_content=runy-hugel_300/200" target="_blank" style="outline:0px;" alt="">
+	</map>
+	</div>
+	<div id="GDType_1" style=" display:none; padding:0; margin:0;">
+	<iframe id="ifrm" name="ifrm" width="300" height="200" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+	</div>
+	</center>
+	
+	
+
+</body></html>

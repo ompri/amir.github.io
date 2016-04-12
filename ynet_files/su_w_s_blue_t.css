@@ -1,0 +1,118 @@
+/*BLLUE COLOR TEMPLATE*/
+.su_w_s_color_t_bg_color {
+  background-color: #547dc7;
+}
+.su_w_s_color_t_color {
+  color: #547dc7;
+}
+.data_input_border {
+  border: 1px solid #547dc7;
+}/*COLORS SHARED CSS MIXIN 09/12/2013 */
+#su_w_s_widget a,
+#su_w_s_widget h3#su_w_s_results_indication_text,
+#su_w_s_widget li.su_w_s_hint_item.active,
+#su_w_s_widget .site_search_results_read_more h5 a,
+#su_w_s_widget li.su_phone .data_icon,
+#su_w_s_widget li.su_mobile .data_icon,
+#su_w_s_widget li.su_fax .data_icon,
+#su_w_s_widget li.su_email .data_icon,
+#su_w_s_widget li.su_address .data_icon,
+#su_w_s_widget li.su_phone .data_icon,
+#su_w_s_sub_title_discovery {
+    color: #547dc7;
+}
+#su_w_s_widget #su_w_s_cta,
+#su_w_s_widget #su_w_s_top_bar {
+  background-color: #547dc7;
+}
+#su_w_s_widget .su_w_s_loader_text,
+#su_w_s_widget h2.su_w_s_cta_text,
+#su_w_s_widget .su_top_title {
+  color: #ffffff;
+}
+#su_w_s_widget #su_w_s_top_bar .btn.close button,
+#su_w_s_widget li.su_w_s_hint_item.active .icon.hint_icon,
+#su_w_s_widget li.su_w_s_search_content_item .contact_expand_btn button,
+#su_w_s_widget li.su_w_s_search_content_item.su_w_s_expand .contact_expand_btn button,
+#su_w_s_widget li.su_w_s_site_search_content_item .contact_expand_btn button,
+#su_w_s_widget li.su_w_s_site_search_content_item.su_w_s_expand .contact_expand_btn button {
+  background-image: url("../widget-images/su_w_s_spr_blue_t_elem.png");
+  background-repeat: no-repeat;
+}
+#su_w_s_widget #su_w_s_close_btn button {
+  background-position: 0px -244px;
+}
+#su_w_s_widget #su_w_s_close_btn button:hover,
+#su_w_s_widget #su_w_s_close_btn button:focus {
+  background-position: 0px -304px;
+}
+#su_w_s_widget #su_w_s_search_input_wrapper.su_w_s_focus {
+  border: 1px solid #547dc7;
+}
+#su_w_s_widget li.su_w_s_hint_item .icon.hint_icon {
+  background-position: 0px -360px;
+}
+#su_w_s_widget li.su_w_s_search_content_item .phone_data_icon,
+#su_w_s_widget li.su_w_s_search_content_item .mobile_data_icon,
+#su_w_s_widget li.su_w_s_search_content_item .fax_data_icon,
+#su_w_s_widget li.su_w_s_search_content_item .email_data_icon,
+#su_w_s_widget li.su_w_s_search_content_item .address_data_icon,
+#su_w_s_widget ul.contact_item_list_expanded_data .data_icon {
+  background-color: #547dc7;
+}
+#su_w_s_widget li.su_w_s_search_content_item .contact_expand_btn button,
+#su_w_s_widget li.su_w_s_site_search_content_item .contact_expand_btn button {
+  background-position: 0px 0px;
+}
+#su_w_s_widget li.su_w_s_search_content_item .contact_expand_btn button:hover,
+#su_w_s_widget li.su_w_s_search_content_item .contact_expand_btn button:focus,
+#su_w_s_widget li.su_w_s_site_search_content_item .contact_expand_btn button:hover,
+#su_w_s_widget li.su_w_s_site_search_content_item .contact_expand_btn button:focus {
+  background-position: 0px -60px;
+}
+#su_w_s_widget li.su_w_s_search_content_item.su_w_s_expand .contact_expand_btn button,
+#su_w_s_widget li.su_w_s_site_search_content_item.su_w_s_expand .contact_expand_btn button {
+  background-position: 0px -120px;
+}
+#su_w_s_widget li.su_w_s_search_content_item.su_w_s_expand .contact_expand_btn button:hover,
+#su_w_s_widget li.su_w_s_search_content_item.su_w_s_expand .contact_expand_btn button:focus,
+#su_w_s_widget li.su_w_s_site_search_content_item.su_w_s_expand .contact_expand_btn button:hover,
+#su_w_s_widget li.su_w_s_site_search_content_item.su_w_s_expand .contact_expand_btn button:focus {
+  background-position: 0px -180px;
+}
+#su_w_s_widget li.su_action_card .su_action_user_data .su_w_s_form_row input:focus,
+#su_w_s_widget li.su_action_card .su_w_s_form_row textarea.action_card_message_message_textarea:focus {
+  border: 1px solid #547dc7;
+}
+#su_w_s_widget.su_w_s_heb li.su_w_s_search_content_item .contact_expand_btn button,
+#su_w_s_widget.su_w_s_heb li.su_w_s_site_search_content_item .contact_expand_btn button {
+  background-position: 0px -389px;
+}
+#su_w_s_widget.su_w_s_heb li.su_w_s_search_content_item .contact_expand_btn button:hover,
+#su_w_s_widget.su_w_s_heb li.su_w_s_search_content_item .contact_expand_btn button:focus,
+#su_w_s_widget.su_w_s_heb li.su_w_s_site_search_content_item .contact_expand_btn button:hover,
+#su_w_s_widget.su_w_s_heb li.su_w_s_site_search_content_item .contact_expand_btn button:focus {
+  background-position: 0px -449px;
+}
+#su_w_s_widget.su_w_s_heb li.su_w_s_search_content_item.su_w_s_expand .contact_expand_btn button,
+#su_w_s_widget.su_w_s_heb li.su_w_s_site_search_content_item.su_w_s_expand .contact_expand_btn button {
+  background-position: 0px -120px;
+}
+#su_w_s_widget.su_w_s_heb li.su_w_s_search_content_item.su_w_s_expand .contact_expand_btn button:hover,
+#su_w_s_widget.su_w_s_heb li.su_w_s_search_content_item.su_w_s_expand .contact_expand_btn button:focus,
+#su_w_s_widget.su_w_s_heb li.su_w_s_site_search_content_item.su_w_s_expand .contact_expand_btn button:hover,
+#su_w_s_widget.su_w_s_heb li.su_w_s_site_search_content_item.su_w_s_expand .contact_expand_btn button:focus {
+  background-position: 0px -180px;
+}
+.su_ie8 #su_w_s_widget {
+  border: 1px solid #547dc7;
+}
+#su_w_s_widget li.su_w_s_contact_item_data_card li button,
+#su_w_s_widget li.su_w_s_contact_item_data_card li a.su_btn_link {
+  background-color: #547dc7;
+  color: #ffffff;
+}
+#su_w_s_widget li.su_w_s_contact_item_data_card li button:hover,
+#su_w_s_widget li.su_w_s_contact_item_data_card li a.su_btn_link:hover {
+  background-color: #a1b7e0;
+}

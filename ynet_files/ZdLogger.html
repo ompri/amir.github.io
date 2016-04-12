@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- saved from url=(0123)http://zdwidget3-bs.sphereup.com/mvc/Widget/ZdLogger?clientId=93896527&contentSource=http%3A%2F%2Faz835984.vo.msecnd.net%2F -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Zoomd LogAction </title>
+    <meta name="description" content="">
+    <style type="text/css">
+        #overlay {
+            pointer-events: none;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: transparent;
+        }
+    </style>
+    <script src="./json2.min.js" type="text/javascript" async="async"></script>
+    <script src="./jquery.min.js" type="text/javascript"></script>
+</head>
+<body scroll="no">
+
+    <script>
+        var clientID = "93896527";
+        var abTesting = "zoomd";
+        function onMessageListner(e) {
+            var origin = e.origin;
+            var message = e.data;
+
+            if(((/<<action\/data>>/g).test(message))){
+                var splited_message = message.split("<<action/data>>");
+                var action = splited_message[0];
+                var message_data = splited_message[1];
+                if ((!abTesting || abTesting === "zoomd") && message_data.indexOf('"platform":"codefuel"') > -1)
+                    abTesting = 'perion';
+                if (abTesting)
+                    message_data = message_data.slice(0, message_data.length - 1) + ',"abTesting":"' + abTesting + '"}';
+
+                $.ajax({
+                    url: "/LogClientAction",
+                    data: { clientId: clientID, action: action, eventData: (message_data) },
+                    type: "POST",
+                    dataType: "json",
+                    success: function (data) {
+                    },
+                    error: function (data) {
+                        console.log('log error ' + data);
+                    }
+                });
+            }
+        }
+        if (window.addEventListener) {
+            // For standards-compliant web browsers
+            window.addEventListener("message", onMessageListner, false);
+        }
+        else {
+            window.attachEvent("onmessage", onMessageListner);
+        }
+    </script>
+
+
+</body></html>
